@@ -70,3 +70,12 @@ We should update the following settings:
 - hostname
 - enable VNC
 - ...
+
+### Todo
+
+Install vim
+
+```bash
+sudo apt-get update
+sudo apt-get install vim
+```
