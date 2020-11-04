@@ -1,5 +1,7 @@
 # pi-homelab
 
+Official documentation for the Raspberry Pi can be found [here](https://www.raspberrypi.org/documentation/).
+
 ## Getting started
 
 Insert the microSD card, connect a USB keyboard and mouse, plug in an HDMI cable, ethernet cable and the micro-USB power supply.
@@ -52,3 +54,19 @@ To enable keyless ssh, add your key to the Pi:
 ```bash
 ssh-copy-id pi@${PI_NAME}
 ```
+
+You should now be able to access your Pi via SSH on your laptop now, so we can disconnect the HDMI cable, along with the USB keyboard and mouse.
+
+### Updating the system configuration
+
+To edit system configuration for the Pi, we can run the `raspi-config` utility using:
+
+```bash
+sudo raspi-config
+```
+
+We should update the following settings:
+
+- hostname
+- enable VNC
+- ...
