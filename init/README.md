@@ -79,3 +79,5 @@ Install vim
 sudo apt-get update
 sudo apt-get install vim
 ```
+
+Install zsh and ohmyzsh, vim config, ...
